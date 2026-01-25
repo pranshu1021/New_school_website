@@ -7,7 +7,6 @@ This project will be converting a legacy HTML(old) website into HTML5 (newest).
 - HTML5
 - CSS3
 
-
 ## Process
 1. Reviewing the older project files
 
@@ -49,4 +48,5 @@ These are not used as well.
 
 Images shows about news cut-outs.
 
+# Pradeep's POV
 
