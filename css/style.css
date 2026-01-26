@@ -4,7 +4,34 @@
     box-sizing: border-box;
 } */
 
+html,body{
+    margin:0px;
+    padding:0px;
+}
 /* Admission page css */
 #Admission-container{
     display: flex;
+}
+.nav-bar{
+    display:flex;
+   
+    background: linear-gradient(to bottom,#9C3F2E , #A64B3C);
+    width: 100vw;
+    margin-left: 0px;
+    padding: 10px;
+    justify-content: space-evenly;
+    
+}
+.nav-bar button{
+    background:  none;
+    border: none;
+    height: 40px;
+    margin: 0px 0px;
+    color:#F4EFEA ;
+    border-radius: 5px;
+}
+.nav-bar button:hover{
+    background-color: #d38678;
+    transition: 1s;
+    
 }
