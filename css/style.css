@@ -1,14 +1,9 @@
-/* *{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-} */
-
 
 
 html,body{
     margin:0px;
     padding:0px;
+    background-color: #F4EFEA;
 }
 /* Admission page css */
 #main-Content{
