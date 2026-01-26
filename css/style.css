@@ -64,10 +64,11 @@ p{
     display:flex;
    
     background: linear-gradient(to bottom,#9C3F2E , #A64B3C);
-    width: 100vw;
+    width: 100%;
     margin-left: 0px;
     padding: 10px;
     justify-content: space-around;
+    box-sizing: border-box;
 }
 .nav-bar button{
     background:  none;
