@@ -107,3 +107,36 @@ p{
         .dropdown:hover .dropdown-content {
             display: block;
         }
+
+
+          .logo-holder{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo{
+        width:420px;
+        height: 100px;
+    }
+    .logo-text{
+        color:#2F2F2F;
+        margin-bottom: 2px;
+        font-weight: 500;
+        font-size: 17px;
+    }
+    
+    .imp-links-a{
+        display: inline-flex;
+        text-decoration: none;
+        margin:1px 0;
+        color:#3F7F5F ;
+    }
+    .imp-links-a:hover{
+        color: #2E6B4E ;
+        transition: 1s;
+    }
+    .contact-block{
+        width: 10%;
+        display: flex;
+        flex-direction:column;
+    }
