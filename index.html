@@ -7,14 +7,58 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css">
-
+<style>
+    .logo-holder{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo{
+        width:420px;
+        height: 100px;
+    }
+    .logo-text{
+        color:#2F2F2F;
+        margin-bottom: 2px;
+        font-weight: 500;
+        font-size: 17px;
+    }
+    
+    .imp-links-a{
+        display: inline-flex;
+        text-decoration: none;
+        margin:1px 0;
+        color:#3F7F5F ;
+    }
+    .imp-links-a:hover{
+        color: #2E6B4E ;
+        transition: 1s;
+    }
+    .contact-block{
+        width: 10%;
+        display: flex;
+        flex-direction:column;
+    }
+</style>
 </head>
 
 <body>
-    <h1> HEllo this is index/home page</h1>
+    
     <header>
+        <div class="logo-holder">
+                     <img class="logo" src="./assets/images/bansi-vidya-logo.png">
+                    <div class="contact-block">
+                     <p class="logo-text"> Call Us: 09212461728, 29 </p>
+                    <div class="imp-links">
+                        <a class="imp-links-a" href="#">Email</a> | 
+                        <a class="imp-links-a" href="#">FAQ's</a> | 
+                        <a class="imp-links-a" href="#">Sitemap</a>
+                    </div>
+                    </div>
+        </div>
         <div class="nav-bar">
             <nav>
+                
                 <a href="index.html"><button>Home</button></a>
                 <div class="dropdown"> <button class="dropbtn"> About <i class='bx bx-chevron-down'></i></button>
                     <div class="dropdown-content"> 
