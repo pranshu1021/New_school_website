@@ -4,13 +4,44 @@
     box-sizing: border-box;
 } */
 
+
+
 html,body{
     margin:0px;
     padding:0px;
 }
 /* Admission page css */
-#Admission-container{
+#main-Content{
     display: flex;
+}
+
+#admission-Content{
+    width: 70%;
+    padding: 5px;
+}
+
+h2, h4{
+color: #2F2F2F;
+}
+
+#aside-Content{
+
+    width: 30%;
+    padding: 5px;
+}
+
+
+
+#download-btn{
+    background-color: #2E6B4E;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+#download-btn  a{
+    color: #F7F2ED;
+    text-decoration: none;
 }
 .nav-bar{
     display:flex;
