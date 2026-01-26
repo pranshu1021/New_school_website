@@ -11,7 +11,8 @@ button{
 html,body{
     margin:0px;
     padding:0px;
-    background-color: #F4EFEA;
+    background-color: #F4EFEA !important;
+    /* background-color: #ff8000; */
     overflow-x: hidden;
 }
 /* Admission page css */
