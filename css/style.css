@@ -94,17 +94,27 @@ p{
         .dropdown-content {
             display: none;
             position: absolute;
-            background-color: #f1f1f1;
+            
+             background: linear-gradient(to bottom,#ca7060 , #aa5c4f);
+
             min-width: 160px;
             box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
             z-index: 1;
         }
 
         .dropdown-content a {
-            color: black;
+            color:#F4EFEA ;
             padding: 10px;
             text-decoration: none;
             display: block;
+        }
+        .dropdown-content a:hover {
+            color:#F4EFEA ;
+            padding: 10px;
+            text-decoration: none;
+            display: block;
+           background: linear-gradient(to bottom,#ca7060 , #d68275);
+            transition: 1s;
         }
         .dropdown:hover .dropdown-content {
             display: block;
@@ -142,3 +152,178 @@ p{
         display: flex;
         flex-direction:column;
     }
+
+       
+        .carousel-item img {
+            height: 500px;
+
+            object-fit: contain;
+            width: 100%;
+        }
+
+        .carousel-control-next-icon,
+        .carousel-control-prev-icon {
+            filter: invert(27%) sepia(85%) saturate(5000%) hue-rotate(340deg);
+        }
+
+        .index-main-content {
+            margin-top: 20px;
+        }
+
+        #carouselExampleInterval {
+            background-color: #F7F2ED !important;
+        }
+
+        .under-ss-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 40px;
+            margin: 40px 5%;
+            flex-wrap: wrap;
+        }
+
+
+        .small-content {
+            flex: 1 1 48%;
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+
+        .small-content img {
+            width: 300px;
+            height: 200px;
+            border-radius: 15px;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
+      
+        .small-content div {
+            display: flex;
+            flex-direction: column;
+        }
+
+       
+        #download-btn {
+            margin-top: auto;
+            width: fit-content;
+        }
+
+        #download-btn {
+            background: #1e6b4e;
+            border: none;
+            padding: 10px 18px;
+            border-radius: 6px;
+        }
+
+        #download-btn a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .pride-box{
+             background: linear-gradient(to bottom,#9C3F2E , #A64B3C);
+             margin: 15px 0%;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             padding: 15px;
+             border-radius: 15px;
+             width: 100%;
+
+        }
+        .pride-row {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .pride-row img {
+            width: 600px;
+            height: 200px;
+            flex-shrink: 0;
+            border-radius: 14px;
+        }
+
+        .pride-row p {
+            margin: 0;
+        }
+        .pride-box-text{
+            font-size: 25px;
+            color: #F7F2ED;
+        }
+        .pride-box-heading{
+            margin-left: 2%;
+            color: #F7F2ED;
+        }
+        .footer {
+             background: linear-gradient(to bottom,#9C3F2E , #A64B3C);
+
+ color: #F7F2ED;
+  padding: 40px 20px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-section {
+  flex: 1 1 250px;
+  margin: 5px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #F7F2ED;
+}
+
+.footer-section p,
+.footer-section ul {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 2px;
+}
+
+.footer-section ul li a {
+  color: #ecf0f1;
+  text-decoration: none;
+  transition: 400ms;
+}
+.footer-section h3{
+    color: #ecf0f1;
+}
+
+.footer-section ul li a:hover {
+  color: #f0b89e;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 13px;
+  border-top: 1px solid #ecf0f1;;
+  padding-top: 5px;
+}
+#cu{
+    color: #F7F2ED;
+}
+
+    
