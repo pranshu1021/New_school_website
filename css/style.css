@@ -12,6 +12,7 @@ html,body{
     margin:0px;
     padding:0px;
     background-color: #F4EFEA;
+    overflow-x: hidden;
 }
 /* Admission page css */
 #sub-main-Content{
@@ -20,17 +21,26 @@ html,body{
 
 #admission-Content{
     width: 70%;
-    padding: 5px;
+    padding: 20px;
 }
 
 h2, h4{
 color: #2F2F2F;
 }
 
+p{
+    color: #444444;
+}
+
+#admission-Enquiry{
+    border-radius: 10px;
+}
+
+
 #aside-Content{
 
-    width: 30%;
-    padding: 5px;
+    width: 25%;
+    padding-left: 30px;
 }
 
 
