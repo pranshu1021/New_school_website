@@ -12,9 +12,8 @@
     <style>
         .carousel-item img {
             height: 500px;
-            /* yahan apni desired height */
+
             object-fit: contain;
-            /* image poori dikhegi */
             width: 100%;
         }
 
@@ -22,11 +21,99 @@
         .carousel-control-prev-icon {
             filter: invert(27%) sepia(85%) saturate(5000%) hue-rotate(340deg);
         }
-        .index-main-content{
+
+        .index-main-content {
             margin-top: 20px;
         }
-        #carouselExampleInterval{
-             background-color: #F7F2ED !important;
+
+        #carouselExampleInterval {
+            background-color: #F7F2ED !important;
+        }
+
+        .under-ss-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 40px;
+            margin: 40px 5%;
+            flex-wrap: wrap;
+        }
+
+
+        .small-content {
+            flex: 1 1 48%;
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+
+        .small-content img {
+            width: 300px;
+            height: 200px;
+            border-radius: 15px;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
+      
+        .small-content div {
+            display: flex;
+            flex-direction: column;
+        }
+
+       
+        #download-btn {
+            margin-top: auto;
+            width: fit-content;
+        }
+
+        #download-btn {
+            background: #1e6b4e;
+            border: none;
+            padding: 10px 18px;
+            border-radius: 6px;
+        }
+
+        #download-btn a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .pride-box{
+             background: linear-gradient(to bottom,#9C3F2E , #A64B3C);
+             margin: 30px 5%;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             padding: 15px;
+             border-radius: 15px;
+
+        }
+        .pride-row {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .pride-row img {
+            width: 600px;
+            height: 200px;
+            flex-shrink: 0;
+            border-radius: 14px;
+        }
+
+        .pride-row p {
+            margin: 0;
+        }
+        .pride-box-text{
+            font-size: 25px;
+            color: #F7F2ED;
+        }
+        .pride-box-heading{
+            margin-left: 2%;
+            color: #F7F2ED;
         }
     </style>
 </head>
@@ -101,33 +188,28 @@
                 <div class="carousel-item">
                     <img src="./assets/images/homepage-imgs/2.gif" class="d-block h-10 w-100" alt="...">
                 </div>
-                <!-- <div class="carousel-item" data-bs-interval="2000">     GLITCHED IMAGE
-                    <img src="./assets/images/homepage-imgs/3.gif" class="d-block h-10 w-100" alt="...">
-                </div> -->
                 <div class="carousel-item">
+                    <img src="./assets/images/homepage-imgs/3.jpg" class="d-block h-10 w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
                     <img src="./assets/images/homepage-imgs/4.gif" class="d-block h-10 w-100" alt="...">
                 </div>
-                <div class="carousel-item" data-bs-interval="2000">
+                <div class="carousel-item">
                     <img src="./assets/images/homepage-imgs/5.gif" class="d-block h-10 w-100" alt="...">
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="2000">
                     <img src="./assets/images/homepage-imgs/6.gif" class="d-block h-10 w-100" alt="...">
                 </div>
-                <div class="carousel-item" data-bs-interval="2000">
+                <div class="carousel-item">
                     <img src="./assets/images/homepage-imgs/7.gif" class="d-block h-10 w-100" alt="...">
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="2000">
                     <img src="./assets/images/homepage-imgs/8.gif" class="d-block h-10 w-100" alt="...">
                 </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <img src="./assets/images/homepage-imgs/9.gif" class="d-block h-10 w-100" alt="...">
-                </div>
                 <div class="carousel-item">
-                    <img src="./assets/images/homepage-imgs/10.gif" class="d-block h-10 w-100" alt="...">
+                    <img src="./assets/images/homepage-imgs/9.jpg" class="d-block h-10 w-100" alt="...">
                 </div>
-                <!-- <div class="carousel-item">     GLITCHED IMAGE
-                    <img src="./assets/images/homepage-imgs/11.gif" class="d-block h-10 w-100" alt="...">
-                </div> -->
+
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
                 data-bs-slide="prev">
@@ -143,18 +225,63 @@
     </div>
     <section>
 
-        <div> 
-            <div name="about-bvn">
-
+        <div class="under-ss-content">
+            <div class="small-content">
+                <img src="./assets/images/homepage-imgs/school.gif">
+                <div>
+                    <h4>ABOUT BVN</h4>
+                    <p class="small-content-p">
+                        The School, affiliated to the Central Board of Secondary Education, New Delhi, was established
+                        in 2018’ catering to the educational needs of students with an uncompromising emphasis on
+                        quality education.
+                    </p>
+                    <button id="download-btn"><a href="#">Read more</a></button>
+                </div>
             </div>
 
-            <div name="dir-msg">
-
+            <div class="small-content">
+                <img src="./assets/images/homepage-imgs/Director.gif">
+                <div>
+                    <h4>DIRECTOR'S MESSAGE</h4>
+                    <p class="small-content-p">
+                        We look back at our commitments and performance over one and a half decades in providing
+                        education to children, strengthened by our post achievements, we promise an even more
+                        innovative, versatile, technologically advanced and well–planned curriculum to provide children
+                        with opportunities to learn and excel in academics as well as in a variety of interesting
+                        personality development programs.
+                    </p>
+                    <button id="download-btn"><a href="#">Read more</a></button>
+                </div>
             </div>
-            <div name="qltyobj">
+            <div class="small-content">
+                <div>
+                    <h4>Quality Objectives:</h4>
+                    <p class="small-content-p">
+                        To enlightenment through excellence in education, to develop harmonious growth of the
+                        personality of students through a variety of co-curricular activities, to establish different
+                        activities to improve the leadership skills and team work; and to develop creativity among the
+                        students through various self- expressive activities
+                    </p>
 
+                </div>
             </div>
+            
+
         </div>
+        
+                <div class="pride-box">
+                    <h2 class="pride-box-heading">Our Pride</h2>
+                    <div class="pride-row">
+                        <img src="./assets/images/homepage-imgs/Bansi-Vidya-Niketan-School-Logo-pride.gif">
+                        <p class="pride-box-text">
+                            Got honored by Chief Minister Harayana, Shri Bhupinder Singh Hooda in essay writing
+                            competition
+                            on 18th Dec.2009
+                        </p>
+                    </div>
+                </div>
+            
+
 
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
