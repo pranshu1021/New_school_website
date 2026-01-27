@@ -9,7 +9,7 @@ CSS3
 
 ## Process
 
-### 1. Reviewing the legacy project files
+### Reviewing the legacy project files
 The first step in the modernization process is to review and audit the original project files. This helps identify which files and assets should be retained, reused, or discarded during development.
 
 ![about-bvn-school-files](docs/imgs/about-bvn-school-files.png)
@@ -48,11 +48,6 @@ These files are not used in the modern implementation and are therefore discarde
 
 This folder contains images related to news cut-outs and media mentions. These images are preserved for content and historical reference.
 
-## Our POV as Developers
-This section is reserved for personal observations, technical decisions, challenges faced, and lessons learned during the modernization process.
-
-### Day-0
-Made the basic project structure, created the README.md file, and performed initial color palette research based on the school’s visual identity.
 
 #### Color Palette
 
