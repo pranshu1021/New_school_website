@@ -1,26 +1,35 @@
-/* *{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-} */
-
-
 button {
     cursor: pointer;
 }
-h1, h2, h3, h4, p{
+
+h1,
+h2,
+h3,
+h4,
+p {
     font-family: 'Roboto', sans-serif;
 }
+
+h2,
+h4 {
+    color: #2F2F2F;
+}
+
+p {
+    color: #444444;
+}
+
 html,
 body {
     margin: 0px;
     padding: 0px;
     background-color: #F4EFEA !important;
-    /* background-color: #ff8000; */
     overflow-x: hidden;
 }
 
+
 /* Admission page css */
+/*------------------------------------------------------------*/
 #sub-main-Content {
     display: flex;
 }
@@ -30,35 +39,15 @@ body {
     padding: 20px;
 }
 
-h2,
-h4 {
-    color: #2F2F2F;
-}
-
-
-p {
-    color: #444444;
-}
-
 #admission-Enquiry {
     border-radius: 10px;
 }
-
-
-#aside-Content {
-
-    width: 25%;
-    padding-left: 30px;
-}
-
-
 
 #download-btn {
     background-color: #2E6B4E;
     padding: 10px;
     border-radius: 5px;
     font-size: medium;
-
     border: none;
 }
 
@@ -67,7 +56,20 @@ p {
     text-decoration: none;
 }
 
-/* index page */
+/*----------------------------------------------------------------*/
+/* ASIDE CSS*/
+/*----------------------------------------------------------------*/
+#aside-Content {
+    width: 25%;
+    padding-left: 30px;
+}
+
+/*----------------------------------------------------------------*/
+
+
+
+/*---------------------------------------------------------------------------*/
+/* NAV BAR */
 .nav-bar {
     display: flex;
 
@@ -132,7 +134,14 @@ p {
     display: block;
 }
 
+/*---------------------------------------------------------------------------*/
 
+
+
+
+
+/* LOGO HEADER*/
+/*---------------------------------------------------------------------------*/
 .logo-holder {
     display: flex;
     justify-content: space-between;
@@ -169,10 +178,15 @@ p {
     flex-direction: column;
 }
 
+/*---------------------------------------------------------------------------*/
 
+
+
+
+/* BOOTSTRAP */
+/*---------------------------------------------------------------------------*/
 .carousel-item img {
     height: 500px;
-
     object-fit: contain;
     width: 100%;
 }
@@ -182,12 +196,18 @@ p {
     filter: invert(27%) sepia(85%) saturate(5000%) hue-rotate(340deg);
 }
 
-.index-main-content {
-    margin-top: 20px;
-}
-
 #carouselExampleInterval {
     background-color: #F7F2ED !important;
+}
+
+/*---------------------------------------------------------------------------*/
+
+
+
+/* INDEX PAGE */
+/*---------------------------------------------------------------------------*/
+.index-main-content {
+    margin-top: 20px;
 }
 
 .under-ss-content {
@@ -199,14 +219,12 @@ p {
     flex-wrap: wrap;
 }
 
-
 .small-content {
     flex: 1 1 48%;
     display: flex;
     align-items: flex-start;
     gap: 20px;
 }
-
 
 .small-content img {
     width: 300px;
@@ -216,26 +234,21 @@ p {
     flex-shrink: 0;
 }
 
-
 .small-content div {
     display: flex;
     flex-direction: column;
 }
 
-
-#download-btn {
+#readmore-btn {
     margin-top: auto;
     width: fit-content;
-}
-
-#download-btn {
     background: #1e6b4e;
     border: none;
     padding: 10px 18px;
     border-radius: 6px;
 }
 
-#download-btn a {
+#readmore-btn a {
     color: #fff;
     text-decoration: none;
     font-weight: 500;
@@ -280,9 +293,27 @@ p {
     color: #F7F2ED;
 }
 
+/*------------------------------------------------------------*/
+
+#download-btn {
+    margin-top: auto;
+    width: fit-content;
+    background: #1e6b4e;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+}
+
+#download-btn a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* FOOTER CSS */
+/*----------------------------------------------------------*/
 .footer {
     background: linear-gradient(to bottom, #9C3F2E, #A64B3C);
-
     color: #F7F2ED;
     padding: 40px 20px 20px;
     font-family: 'Segoe UI', sans-serif;
@@ -344,19 +375,141 @@ p {
     ;
     padding-top: 5px;
 }
-        .admission-content h2 {
-            background-color: #A64B3C;
-            color: #F7F2ED;
-            
-        }
+
+/*----------------------------------------------------------*/
+.admission-content h2 {
+    background-color: #A64B3C;
+    color: #F7F2ED;
+
+}
+
 #cu {
     color: #F7F2ED;
 }
-    table{
-      margin-left: 5%;
+
+table {
+    margin-left: 5%;
+}
+
+table tr td {
+    text-align: center;
+    padding: 5px;
+    border: 0.5px solid black;
+}
+
+/* ADMISSION-ENQUIRY CSS */
+/*--------------------------------------------------------------*/
+#form-btn {
+    background-color: #2E6B4E;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: medium;
+    border: none;
+    color: #F7F2ED;
+    text-decoration: none;
+}
+/* RESPONSIVENESS CSS*/
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 992px) {
+    .nav-bar {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
     }
-    table tr td {
-      text-align: center;
-      padding: 5px;
-      border: 0.5px solid black;
+
+    .nav-bar button {
+        font-size: 14px;
+        padding: 6px 10px;
     }
+}
+@media (max-width: 768px) {
+    .logo-holder {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .logo {
+        width: 90%;
+        height: auto;
+    }
+
+    .contact-block {
+        width: 100%;
+        align-items: center;
+    }
+}
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 250px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 480px) {
+    .carousel-item img {
+        height: 200px;
+    }
+}
+@media (max-width: 992px) {
+    .under-ss-content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .small-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .small-content img {
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-width: 768px) {
+
+    .pride-box {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .pride-box-heading {
+        margin: 0;
+        font-size: 22px;
+    }
+
+    .pride-row {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .pride-row img {
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+        border-radius: 12px;
+    }
+
+    .pride-box-text {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}
+
+
+
+
