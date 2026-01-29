@@ -63,9 +63,11 @@ body {
     width: 25%;
     padding-left: 30px;
 }
-#links a img{
+
+#links a img {
     border-radius: 5px;
 }
+
 /*----------------------------------------------------------------*/
 
 
@@ -402,6 +404,28 @@ table tr td {
     border: 0.5px solid black;
 }
 
+/*STUDENT CORNER*/
+.about-table-div,
+.student-corner {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    min-width: 600px;
+    /* important */
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: auto;
+    text-align: center;
+}
+
+/*--------------------------------------------------------*/
 /* ADMISSION-ENQUIRY CSS */
 /*--------------------------------------------------------------*/
 #form-btn {
@@ -413,6 +437,7 @@ table tr td {
     color: #F7F2ED;
     text-decoration: none;
 }
+
 /* RESPONSIVENESS CSS*/
 * {
     box-sizing: border-box;
@@ -422,6 +447,7 @@ img {
     max-width: 100%;
     height: auto;
 }
+
 @media (max-width: 992px) {
     .nav-bar {
         flex-wrap: wrap;
@@ -434,6 +460,7 @@ img {
         padding: 6px 10px;
     }
 }
+
 @media (max-width: 768px) {
     .logo-holder {
         flex-direction: column;
@@ -452,10 +479,11 @@ img {
         align-items: center;
     }
 }
+
 @media (max-width: 768px) {
     .carousel-item img {
         height: 300px;
-        object-fit:contain;
+        object-fit: contain;
     }
 }
 
@@ -464,6 +492,7 @@ img {
         height: 200px;
     }
 }
+
 @media (max-width: 992px) {
     .under-ss-content {
         flex-direction: column;
@@ -481,48 +510,54 @@ img {
         width: 100%;
         height: auto;
     }
+
     .small-content-holder {
         display: flex;
         align-items: center;
     }
+
     /* #aside-Content{
         display: flex;
     } */
-     #sub-main-Content{
+    #sub-main-Content {
         flex-direction: column;
         width: 100%;
-     }
-     #admission-Content {
+    }
+
+    #admission-Content {
         width: 100%;
     }
 
     #aside-Content {
         width: 100%;
-       
-        
-        
+
+
+
     }
-    .footer{
+
+    .footer {
         margin-top: 10px;
     }
-    #links a img{
-    border-radius: 5px;
-    width: 90%;
 
-}
-#links{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    #links a img {
+        border-radius: 5px;
+        width: 90%;
 
-}
+    }
+
+    #links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
 }
 
 @media (max-width:466px) {
-    .in-the-media{
+    .in-the-media {
         align-items: center;
-          display: flex;
-    flex-direction: column;
+        display: flex;
+        flex-direction: column;
 
     }
 }
@@ -561,7 +596,3 @@ img {
     }
 
 }
-
-
-
-
