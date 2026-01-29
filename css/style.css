@@ -479,9 +479,13 @@ img {
         display: flex;
         align-items: center;
     }
-    #aside-Content{
-        display: block;
-    }
+    /* #aside-Content{
+        display: flex;
+    } */
+     #sub-main-Content{
+        flex-direction: column;
+        width: 100%;
+     }
 }
 @media (max-width: 768px) {
 
