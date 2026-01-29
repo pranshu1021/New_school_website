@@ -191,6 +191,7 @@ body {
     height: 500px;
     object-fit: contain;
     width: 100%;
+    border-radius: 15px;
 }
 
 .carousel-control-next-icon,
