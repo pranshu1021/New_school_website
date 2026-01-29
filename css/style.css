@@ -486,6 +486,15 @@ img {
         flex-direction: column;
         width: 100%;
      }
+     #admission-Content {
+        width: 100%;
+    }
+
+    #aside-Content {
+        width: 100%;
+        padding-left: 0;
+        margin-top: 20px;
+    }
 }
 @media (max-width: 768px) {
 
