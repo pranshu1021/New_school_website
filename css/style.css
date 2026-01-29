@@ -475,6 +475,10 @@ img {
         width: 100%;
         height: auto;
     }
+    .small-content-holder {
+        display: flex;
+        align-items: center;
+    }
 }
 @media (max-width: 768px) {
 
@@ -506,8 +510,9 @@ img {
 
     .pride-box-text {
         font-size: 16px;
-        line-height: 1.5;
+        line-height: 25px;
     }
+
 }
 
 
