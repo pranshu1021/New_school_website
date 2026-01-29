@@ -479,6 +479,9 @@ img {
         display: flex;
         align-items: center;
     }
+    #aside-Content{
+        display: block;
+    }
 }
 @media (max-width: 768px) {
 
