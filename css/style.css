@@ -428,9 +428,7 @@ img {
         justify-content: center;
         gap: 5px;
     }
-    .body{
-        overflow-x:auto;
-    }
+
     .nav-bar button {
         font-size: 14px;
         padding: 6px 10px;
