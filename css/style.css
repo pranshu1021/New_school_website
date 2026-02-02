@@ -80,7 +80,7 @@ body {
 /* NAV BAR */
 .nav-bar {
     display: flex;
-    flex-direction:column;
+ 
     background: linear-gradient(to bottom, #9C3F2E, #A64B3C);
     width: 100%;
     margin-left: 0px;
@@ -275,7 +275,7 @@ body {
     padding: 15px;
     border-radius: 15px;
     width: 100%;
-
+flex-direction: column;
 }
 
 
