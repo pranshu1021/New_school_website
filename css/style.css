@@ -195,7 +195,7 @@ body {
 /*---------------------------------------------------------------------------*/
 .carousel-item img {
     height: 500px;
-    object-fit: cover;
+    object-fit:contain;
     width: 100%;
     border-radius: 15px;
 }
@@ -223,8 +223,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    flex-direction: column;
     gap: 40px;
-    margin: 40px 5%;
+    margin: 40px 20%;
     flex-wrap: wrap;
 }
 
