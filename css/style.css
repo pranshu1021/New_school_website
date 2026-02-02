@@ -61,7 +61,11 @@ body {
 /*----------------------------------------------------------------*/
 #aside-Content {
     width: 25%;
-    padding-left: 30px;
+    padding-right: 7%;
+}
+
+#sub-main-Content{
+    padding-left: 150px;
 }
 
 #links a img {
@@ -191,7 +195,7 @@ body {
 /*---------------------------------------------------------------------------*/
 .carousel-item img {
     height: 500px;
-    object-fit: contain;
+    object-fit: cover;
     width: 100%;
     border-radius: 15px;
 }
@@ -522,6 +526,7 @@ img {
     #sub-main-Content {
         flex-direction: column;
         width: 100%;
+        
     }
 
     #admission-Content {
