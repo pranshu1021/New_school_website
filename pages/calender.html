@@ -31,6 +31,16 @@
             margin: 10px;
             font-weight: bold;
         }
+
+       
+
+        @media(max-width:992px){
+
+ .calender-table{
+            overflow-x: scroll;
+        }
+
+        }
     </style>
 </head>
 
@@ -107,7 +117,7 @@
 
 
                 <h2>Calendar</h2>
-
+  <div class="calender-table">
                 <table>
                     <caption>Holiday List</caption>
                     <tr>
@@ -196,6 +206,9 @@
                         <td>Saturday</td>
                     </tr>
                 </table> <!-- Breaks Table -->
+                </div>
+
+                <div class="calender-table">
                 <table>
                     <caption>School Breaks</caption>
                     <tr>
@@ -216,6 +229,7 @@
                     </tr>
                 </table>
 
+</div>
 
             </div>
 

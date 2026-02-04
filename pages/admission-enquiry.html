@@ -9,7 +9,27 @@
 </head>
 <body>
 
+<style>
 
+
+#admission-form{
+  padding: 5px;
+}
+
+input{
+  padding: 5px;
+  border-radius: 10px;
+  border-color: #F7F2ED;
+ margin-top: 5px;
+ 
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+</style>
 
     <main>
       <header>
@@ -80,39 +100,46 @@
 
       
                  <h2>Admission-Enquiry</h2>
-                 <div>
+                 <div id="admission-form">
                     <form>
-                        <label for="name" id="name">Name of student </label>
+
+                        <label  for="name" id="name">Name of student </label>
                         <input type="text" id="name" required>
                         <br>
-                        <label for="name" id="name">
-                            Class into which admission is sought </label>
-                        <input type="text" id="name" required>
-                        <br>
+
+
                         <label for="name" id="admission">Year of admission </label>
                         <input type="text" id="admission" required>
                         <br>
+
                         <label for="name" id="lang">Second language preferred</label>
                         <input type="text" id="lang" required>
                         <br>
+
                         <label for="name" id="dob">Date of birth of the student</label>
                         <input type="text" id="dob" required>
                         <br>
+
                         <label for="name" id="prev">Name & class of the previous school studied</label>
                         <input type="text" id="prev" required>
                         <br>
+
                         <label for="name" id="person-name">Name of the person making the enquiry </label>
                         <input type="text" id="person-name" required>
                         <br>
+
                         <label for="name" id="relation">Relationship to the student </label>
                         <input type="text" id="relation" required>
                         <br>
+
                         <label for="name" id="parent-name">Name of the Parent/Guardian</label>
                         <input type="text" id="parent-name" required>
                         <br>
+
                         <label for="name" id="cont-number">Contact Number of the Parent/Guardian</label>
                         <input type="text" id="cont-number" required>
                         <br>
+
                         <label for="name" id="parent-email">Email ID of Parent/Guardian </label>
                         <input type="text" id="parent-email" required>
                         <br>
@@ -120,16 +147,13 @@
                         <label for="">How did you know about BVN?</label>
                       <br>
                       
-                        <input type="checkbox" id="checkbox1" value="media"> 
-                        <label for="checkbox1">media</label>
-                        <input type="checkbox" id="checkbox2">
-                        <label for="checkbox1">Friends</label>
-                        <input type="checkbox" id="checkbox3">
-                        <label for="checkbox1">Hoarding</label>
-                        <input type="checkbox" id="checkbox4">
-                        <label for="checkbox1">Flyers</label>
-                        <input type="checkbox" id="checkbox5">
-                        <label for="checkbox1">other</label>
+                        <label for="checkbox1">media   <input type="checkbox" id="checkbox1" value="media"> </label>
+                        <label for="checkbox1">Flyers  <input  type="checkbox" id="checkbox1" value="media"> </label>
+                        <label for="checkbox1">Relative  <input  type="checkbox" id="checkbox1" value="media"> </label>
+                        <label for="checkbox1">Friends  <input  type="checkbox" id="checkbox1" value="media"> </label>
+                        <label for="checkbox1">others  <input type="checkbox" id="checkbox1" value="media"> </label>
+               
+                    
 
                         <br>
                         <br>
