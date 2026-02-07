@@ -30,7 +30,7 @@ body {
 
 /* Admission page css */
 /*------------------------------------------------------------*/
-#sub-main-Content {
+#main-Content {
     display: flex;
 }
 
@@ -64,7 +64,7 @@ body {
     padding-right: 7%;
 }
 
-#sub-main-Content{
+#main-Content{
     padding: 0px 110px;
 }
 
@@ -510,7 +510,7 @@ img {
         display:block;
     }
 
-    #sub-main-Content{
+    #main-Content{
     padding: 0px 20px;
 }
 
@@ -574,7 +574,7 @@ img {
     /* #aside-Content{
         display: flex;
     } */
-    #sub-main-Content {
+    #main-Content {
         flex-direction: column;
         width: 100%;
         
