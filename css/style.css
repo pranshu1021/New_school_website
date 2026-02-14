@@ -553,7 +553,13 @@ img {
         flex-direction: column;
         gap: 30px;
     }
-    
+    .slider {
+    position: relative;
+    width: 100%;
+    max-height: 300px;
+    overflow: hidden;
+    background: #F4EFEA;
+}
 
     .small-content {
         flex-direction: column;
